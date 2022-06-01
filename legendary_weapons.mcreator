@@ -916,6 +916,15 @@
           }
         ]
       }
+    },
+    {
+      "name": "Alchemistforge",
+      "type": "block",
+      "sortid": 73,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "alchemistforge"
     }
   ],
   "variable_elements": [
@@ -938,6 +947,7 @@
       "advancements.weapondesiner.descr": "Obtain a modified tool",
       "entity.legendary_weapons.knight": "Knight",
       "item.legendary_weapons.excaliburofcontrol": "Excalibur of control",
+      "block.legendary_weapons.alchemistforge": "Alchemistforge",
       "block.legendary_weapons.platinumore": "Platinumore",
       "block.legendary_weapons.magicalrose": "Magicalrose",
       "itemGroup.tabplatinium": "Platinium",

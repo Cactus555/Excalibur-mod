@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "legendary_weapons:blocks/alchemistforgeface5",
+    "up": "legendary_weapons:blocks/alchemistforgeface6",
+    "north": "legendary_weapons:blocks/alchemistforgeface1",
+    "east": "legendary_weapons:blocks/alchemistforgeface2",
+    "south": "legendary_weapons:blocks/alchemistforgeface4",
+    "west": "legendary_weapons:blocks/alchemistforgeface3",
+    "particle": "legendary_weapons:blocks/alchemistforgeface5"
+  }
+}
