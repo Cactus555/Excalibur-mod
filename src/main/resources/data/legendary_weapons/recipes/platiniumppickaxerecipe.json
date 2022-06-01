@@ -1,0 +1,30 @@
+{
+  "group": "legendary_weapons",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    " 4 ",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "legendary_weapons:platiniumingot"
+    },
+    "1": {
+      "item": "legendary_weapons:platiniumingot"
+    },
+    "2": {
+      "item": "legendary_weapons:platiniumingot"
+    },
+    "4": {
+      "item": "minecraft:stick"
+    },
+    "7": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "legendary_weapons:platiniumpickaxe",
+    "count": 1
+  }
+}

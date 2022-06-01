@@ -1,0 +1,11 @@
+{
+  "_fv": 10,
+  "_type": "tab",
+  "definition": {
+    "name": "Platinium",
+    "icon": {
+      "value": "CUSTOM:Platiniumsword"
+    },
+    "showSearch": false
+  }
+}

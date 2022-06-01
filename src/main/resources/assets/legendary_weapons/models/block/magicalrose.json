@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "legendary_weapons:blocks/magicalrose",
+    "particle": "legendary_weapons:blocks/magicalrose"
+  }
+}

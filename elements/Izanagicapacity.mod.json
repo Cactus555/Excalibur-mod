@@ -1,0 +1,36 @@
+{
+  "_fv": 10,
+  "_type": "gun",
+  "definition": {
+    "renderType": 0,
+    "texture": "izanagi_capacity",
+    "customModelName": "Normal",
+    "name": "Izanagicapacity",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:Legend"
+    },
+    "stackSize": 64,
+    "ammoItem": {
+      "value": "CUSTOM:Izanagicapacity"
+    },
+    "shootConstantly": false,
+    "usageCount": 0,
+    "actionSound": {
+      "value": "block.fire.ambient"
+    },
+    "hasGlow": false,
+    "enableMeleeDamage": false,
+    "damageVsEntity": 5.0,
+    "bulletPower": 1.0,
+    "bulletDamage": 5.0,
+    "bulletKnockback": 0,
+    "bulletParticles": false,
+    "bulletIgnitesFire": false,
+    "bulletItemTexture": {
+      "value": "CUSTOM:Izanagicapacity"
+    },
+    "bulletModel": "Default",
+    "customBulletModelTexture": ""
+  }
+}

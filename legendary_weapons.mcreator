@@ -1,0 +1,990 @@
+{
+  "id_map": {},
+  "mod_elements": [
+    {
+      "name": "Legend",
+      "type": "tab",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "legend"
+    },
+    {
+      "name": "Izanagi",
+      "type": "tool",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "izanagi"
+    },
+    {
+      "name": "IzanagiRightClickedInAir",
+      "type": "procedure",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "izanagi_right_clicked_in_air",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Izanagicapacity",
+      "type": "gun",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "izanagicapacity"
+    },
+    {
+      "name": "Legendary",
+      "type": "achievement",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "legendary"
+    },
+    {
+      "name": "MagicbookBulletHitsBlock",
+      "type": "procedure",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "magicbook_bullet_hits_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MagicbookBulletHitsLivingEntity",
+      "type": "procedure",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "magicbook_bullet_hits_living_entity",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Magicbook",
+      "type": "gun",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "magicbook"
+    },
+    {
+      "name": "Magicbookrecipe",
+      "type": "recipe",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "magicbookrecipe"
+    },
+    {
+      "name": "Magicessence",
+      "type": "block",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "magicessence"
+    },
+    {
+      "name": "Gem",
+      "type": "item",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "gem"
+    },
+    {
+      "name": "Blackoak",
+      "type": "block",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "blackoak"
+    },
+    {
+      "name": "Darkforest",
+      "type": "biome",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "darkforest"
+    },
+    {
+      "name": "Excaliburofdestruction",
+      "type": "tool",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "excaliburofdestruction"
+    },
+    {
+      "name": "ExcaliburofdestructionRightClickedInAir",
+      "type": "procedure",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "excaliburofdestruction_right_clicked_in_air",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Excaliburofcontrol",
+      "type": "tool",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "excaliburofcontrol"
+    },
+    {
+      "name": "ExcaliburofcontrolLivingEntityIsHitWithTool",
+      "type": "procedure",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "excaliburofcontrol_living_entity_is_hit_with_tool",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Elixir",
+      "type": "item",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "elixir"
+    },
+    {
+      "name": "Elixirrecipe",
+      "type": "recipe",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "elixirrecipe"
+    },
+    {
+      "name": "Excaliburofattack",
+      "type": "tool",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "excaliburofattack"
+    },
+    {
+      "name": "Angelicsword",
+      "type": "tool",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "excaliburofthunder"
+    },
+    {
+      "name": "AngelicswordItemIsCraftedsmelted",
+      "type": "procedure",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "angelicsword_item_is_craftedsmelted",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AngelicswordLivingEntityIsHitWithTool",
+      "type": "procedure",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "angelicsword_living_entity_is_hit_with_tool",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AngelicswordRightClickedInAir",
+      "type": "procedure",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "angelicsword_right_clicked_in_air",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AngelicswordToolInHandTick",
+      "type": "procedure",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "angelicsword_tool_in_hand_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ExcaliburofattackLivingEntityIsHitWithTool",
+      "type": "procedure",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "excaliburofattack_living_entity_is_hit_with_tool",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ExcaliburofcontrolRightClickedInAir",
+      "type": "procedure",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "excaliburofcontrol_right_clicked_in_air",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Platinumore",
+      "type": "block",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "platinumore"
+    },
+    {
+      "name": "Platiniumingot",
+      "type": "item",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "platiniumingot"
+    },
+    {
+      "name": "Platiniumingotrecipe",
+      "type": "recipe",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "platiniumingotrecipe"
+    },
+    {
+      "name": "Platiniumarmor",
+      "type": "armor",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "platiniumarmor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "PlatiniumarmorBodyTickEvent",
+      "type": "procedure",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "platiniumarmor_body_tick_event",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "PlatiniumarmorHelmetTickEvent",
+      "type": "procedure",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "platiniumarmor_helmet_tick_event",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "PlatiniumarmorLeggingsTickEvent",
+      "type": "procedure",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "platiniumarmor_leggings_tick_event",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "PlatiniumarmorBootsTickEvent",
+      "type": "procedure",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "platiniumarmor_boots_tick_event",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Opaqueleaves",
+      "type": "block",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "opaqueleaves"
+    },
+    {
+      "name": "Platiniumsword",
+      "type": "tool",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "platiniumsword"
+    },
+    {
+      "name": "Platiniumpickaxe",
+      "type": "tool",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "platiniumpickaxe"
+    },
+    {
+      "name": "Platiniumswordrecipe",
+      "type": "recipe",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "platiniumswordrecipe"
+    },
+    {
+      "name": "Platiniumppickaxerecipe",
+      "type": "recipe",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "platiniumppickaxerecipe"
+    },
+    {
+      "name": "Platiniumaxe",
+      "type": "tool",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "platiniumaxe"
+    },
+    {
+      "name": "Platiniumhoe",
+      "type": "tool",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "platiniumhoe"
+    },
+    {
+      "name": "Platiniumaxerecipe",
+      "type": "recipe",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "platiniumaxerecipe"
+    },
+    {
+      "name": "Platiniumhoerecipe",
+      "type": "recipe",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "platiniumhoerecipe"
+    },
+    {
+      "name": "Platiniumshovel",
+      "type": "tool",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "platiniumshovel"
+    },
+    {
+      "name": "Platiniumshovelrecipe",
+      "type": "recipe",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "platiniumshovelrecipe"
+    },
+    {
+      "name": "Platiniumdagger",
+      "type": "tool",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "platiniumdagger"
+    },
+    {
+      "name": "Platiniumdaggerrecipe",
+      "type": "recipe",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "platiniumdaggerrecipe"
+    },
+    {
+      "name": "Platiniumsaber",
+      "type": "tool",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "platiniumsaber"
+    },
+    {
+      "name": "Platiniumhelmetrecipe",
+      "type": "recipe",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "platiniumhelmetrecipe"
+    },
+    {
+      "name": "Platiniumchestplaterecipe",
+      "type": "recipe",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "platiniumchestplaterecipe"
+    },
+    {
+      "name": "Platiniumleggingsrecipe",
+      "type": "recipe",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "platiniumleggingsrecipe"
+    },
+    {
+      "name": "Platiniumbootsrecipe",
+      "type": "recipe",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "platiniumbootsrecipe"
+    },
+    {
+      "name": "Platiniumsaberrecipe",
+      "type": "recipe",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "platiniumsaberrecipe"
+    },
+    {
+      "name": "Platiniumbroadsword",
+      "type": "tool",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "platiniumbroadsword"
+    },
+    {
+      "name": "Platinium",
+      "type": "tab",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "platinium"
+    },
+    {
+      "name": "Platiniumrapier",
+      "type": "tool",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "platiniumrapier"
+    },
+    {
+      "name": "Platiniumbroadswordrecipe",
+      "type": "recipe",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "platiniumbroadswordrecipe"
+    },
+    {
+      "name": "Platiniumrapierrecipe",
+      "type": "recipe",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "platiniumrapierrecipe"
+    },
+    {
+      "name": "Autel",
+      "type": "structure",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "autel"
+    },
+    {
+      "name": "KnightEntityIsHurt",
+      "type": "procedure",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "knight_entity_is_hurt",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Knight",
+      "type": "mob",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "knight"
+    },
+    {
+      "name": "Archer",
+      "type": "mob",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "archer"
+    },
+    {
+      "name": "Castle",
+      "type": "structure",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "castle"
+    },
+    {
+      "name": "Platiniumhallebard",
+      "type": "tool",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "platiniumhallebard"
+    },
+    {
+      "name": "Platiniumhallebardrecipe",
+      "type": "recipe",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "platiniumhallebardrecipe"
+    },
+    {
+      "name": "Weapondesiner",
+      "type": "achievement",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "weapondesiner"
+    },
+    {
+      "name": "MagicalroseMobplayerCollidesWithPlant",
+      "type": "procedure",
+      "sortid": 71,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "magicalrose_mobplayer_collides_with_plant",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Magicalrose",
+      "type": "plant",
+      "sortid": 71,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "magicalrose"
+    },
+    {
+      "name": "PlatiniumhallebardLivingEntityIsHitWithTool",
+      "type": "procedure",
+      "sortid": 72,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "platiniumhallebard_living_entity_is_hit_with_tool",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    }
+  ],
+  "variable_elements": [
+    {
+      "name": "clearenchants",
+      "type": "itemstack",
+      "scope": "world",
+      "value": ""
+    }
+  ],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.legendary_weapons.platiniumhallebard": "Platiniumhallebard",
+      "item.legendary_weapons.excaliburofthunder": "Excalibur of the thunder",
+      "item.legendary_weapons.platiniumarmor_helmet": "Platiniumarmor Helmet",
+      "item.legendary_weapons.platiniumsaber": "Platiniumsaber",
+      "item.legendary_weapons.izanagicapacity": "Izanagicapacity",
+      "item.legendary_weapons.platiniumsword": "Platiniumsword",
+      "advancements.weapondesiner.descr": "Obtain a modified tool",
+      "entity.legendary_weapons.knight": "Knight",
+      "item.legendary_weapons.excaliburofcontrol": "Excalibur of control",
+      "block.legendary_weapons.platinumore": "Platinumore",
+      "block.legendary_weapons.magicalrose": "Magicalrose",
+      "itemGroup.tabplatinium": "Platinium",
+      "itemGroup.tablegend": "Legend",
+      "item.legendary_weapons.platiniumpickaxe": "Platiniumpickaxe",
+      "item.legendary_weapons.archer": "Archer Spawn Egg",
+      "item.legendary_weapons.platiniumbroadsword": "Platiniumbroadsword",
+      "item.legendary_weapons.platiniumarmor_chestplate": "Platiniumarmor Body",
+      "item.legendary_weapons.platiniumshovel": "Platiniumshovel",
+      "advancements.weapondesiner.title": "Weapondesiner",
+      "item.legendary_weapons.platiniumhoe": "Platiniumhoe",
+      "block.legendary_weapons.opaqueleaves": "Opaque leaves",
+      "item.legendary_weapons.platiniumingot": "Platiniumingot",
+      "item.legendary_weapons.platiniumarmor_leggings": "Platiniumarmor Leggings",
+      "entity.legendary_weapons.archer": "Archer",
+      "item.legendary_weapons.elixir": "Elixir",
+      "item.legendary_weapons.excaliburofattack": "Excalibur of attack",
+      "item.legendary_weapons.platiniumarmor_boots": "Platiniumarmor Boots",
+      "item.legendary_weapons.platiniumrapier": "Platiniumrapier",
+      "block.legendary_weapons.blackoak": "Blackoak",
+      "item.legendary_weapons.gem": "Gem",
+      "item.legendary_weapons.platiniumaxe": "Platiniumaxe",
+      "item.legendary_weapons.knight": "Knight Spawn Egg",
+      "item.legendary_weapons.izanagi": "Izanagi",
+      "advancements.legendary.title": "Legendary",
+      "item.legendary_weapons.magicbook": "Firebook",
+      "item.legendary_weapons.platiniumdagger": "Platiniumdagger",
+      "item.legendary_weapons.excaliburofdestruction": "Excalibur of destruction",
+      "block.legendary_weapons.magicessence": "Magicessence",
+      "advancements.legendary.descr": "Aquire a legendary sword"
+    }
+  },
+  "workspaceSettings": {
+    "modid": "legendary_weapons",
+    "modName": "Legendary weapons",
+    "version": "1.0.0",
+    "author": "junph, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.15.2",
+    "modElementsPackage": "net.mcreator.legendaryweapons",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202000432115
+}

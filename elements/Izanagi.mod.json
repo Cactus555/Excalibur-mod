@@ -1,0 +1,31 @@
+{
+  "_fv": 10,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "izanagi",
+    "customModelName": "Normal",
+    "name": "Izanagi",
+    "specialInfo": [
+      "Legendary shadow sword"
+    ],
+    "creativeTab": {
+      "value": "CUSTOM:Legend"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 1,
+    "efficiency": 4.0,
+    "attackSpeed": 0.9,
+    "enchantability": 14,
+    "damageVsEntity": 4.0,
+    "usageCount": 7365,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [],
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onRightClickedInAir": {
+      "name": "IzanagiRightClickedInAir"
+    }
+  }
+}

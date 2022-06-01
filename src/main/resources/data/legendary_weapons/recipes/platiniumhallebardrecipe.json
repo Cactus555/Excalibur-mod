@@ -1,0 +1,9 @@
+{
+  "group": "legendary_weapons",
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "legendary_weapons:platiniumaxe"
+  },
+  "result": "legendary_weapons:platiniumhallebard"
+}

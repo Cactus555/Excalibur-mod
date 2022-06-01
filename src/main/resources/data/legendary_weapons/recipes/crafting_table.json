@@ -1,0 +1,12 @@
+{
+  "group": "legendary_weapons",
+  "type": "minecraft:smelting",
+  "experience": 50,
+  "cookingtime": 200,
+  "ingredient": {
+    "item": "legendary_weapons:gem"
+  },
+  "result": {
+    "item": "legendary_weapons:elixir"
+  }
+}

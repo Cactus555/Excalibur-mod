@@ -1,0 +1,33 @@
+{
+  "_fv": 10,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "platiniumhallebard",
+    "customModelName": "Normal",
+    "name": "Platiniumhallebard",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:Platinium"
+    },
+    "toolType": "Axe",
+    "harvestLevel": 2,
+    "efficiency": 5.0,
+    "attackSpeed": 0.7,
+    "enchantability": 2,
+    "damageVsEntity": 10.0,
+    "usageCount": 9536,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:Platiniumingot"
+      }
+    ],
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onEntityHitWith": {
+      "name": "PlatiniumhallebardLivingEntityIsHitWithTool"
+    }
+  }
+}

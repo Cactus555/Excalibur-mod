@@ -1,0 +1,42 @@
+{
+  "group": "legendary_weapons",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:blaze_rod"
+    },
+    "1": {
+      "item": "legendary_weapons:gem"
+    },
+    "2": {
+      "item": "minecraft:blaze_rod"
+    },
+    "3": {
+      "item": "legendary_weapons:gem"
+    },
+    "4": {
+      "item": "minecraft:book"
+    },
+    "5": {
+      "item": "legendary_weapons:gem"
+    },
+    "6": {
+      "item": "minecraft:blaze_rod"
+    },
+    "7": {
+      "item": "legendary_weapons:gem"
+    },
+    "8": {
+      "item": "minecraft:blaze_rod"
+    }
+  },
+  "result": {
+    "item": "legendary_weapons:magicbook",
+    "count": 1
+  }
+}

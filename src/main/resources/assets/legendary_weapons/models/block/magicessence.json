@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "legendary_weapons:blocks/magicessence",
+    "up": "legendary_weapons:blocks/magicessence",
+    "north": "legendary_weapons:blocks/magicessence",
+    "east": "legendary_weapons:blocks/magicessence",
+    "south": "legendary_weapons:blocks/magicessence",
+    "west": "legendary_weapons:blocks/magicessence",
+    "particle": "legendary_weapons:blocks/magicessence"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "group": "legendary_weapons",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "2 ",
+    "4 "
+  ],
+  "key": {
+    "0": {
+      "item": "legendary_weapons:platiniumingot"
+    },
+    "1": {
+      "item": "legendary_weapons:platiniumingot"
+    },
+    "2": {
+      "item": "minecraft:stick"
+    },
+    "4": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "legendary_weapons:platiniumhoe",
+    "count": 1
+  }
+}

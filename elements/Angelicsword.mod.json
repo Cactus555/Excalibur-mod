@@ -1,0 +1,40 @@
+{
+  "_fv": 10,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "priestsword",
+    "customModelName": "Normal",
+    "name": "Excalibur of the thunder",
+    "specialInfo": [
+      "One of the seven Excalibur: high tension voltage"
+    ],
+    "creativeTab": {
+      "value": "CUSTOM:Legend"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 1,
+    "efficiency": 4.0,
+    "attackSpeed": 1.2000000000000002,
+    "enchantability": 20,
+    "damageVsEntity": 7.0,
+    "usageCount": 99999,
+    "blocksAffected": [],
+    "hasGlow": true,
+    "repairItems": [],
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onRightClickedInAir": {
+      "name": "AngelicswordRightClickedInAir"
+    },
+    "onCrafted": {
+      "name": "AngelicswordItemIsCraftedsmelted"
+    },
+    "onEntityHitWith": {
+      "name": "AngelicswordLivingEntityIsHitWithTool"
+    },
+    "onItemInUseTick": {
+      "name": "AngelicswordToolInHandTick"
+    }
+  }
+}

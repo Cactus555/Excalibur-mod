@@ -1,0 +1,24 @@
+{
+  "group": "legendary_weapons",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "1",
+    "2"
+  ],
+  "key": {
+    "0": {
+      "item": "legendary_weapons:platiniumingot"
+    },
+    "1": {
+      "item": "minecraft:stick"
+    },
+    "2": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "legendary_weapons:platiniumshovel",
+    "count": 1
+  }
+}

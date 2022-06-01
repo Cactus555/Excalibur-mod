@@ -1,0 +1,30 @@
+{
+  "_fv": 10,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "platiniumrapier",
+    "customModelName": "Normal",
+    "name": "Platiniumrapier",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:Platinium"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 1,
+    "efficiency": 4.0,
+    "attackSpeed": 2.4,
+    "enchantability": 2,
+    "damageVsEntity": 3.0,
+    "usageCount": 5234,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:Platiniumingot"
+      }
+    ],
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

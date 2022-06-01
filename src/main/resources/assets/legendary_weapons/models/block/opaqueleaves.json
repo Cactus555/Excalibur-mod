@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "legendary_weapons:blocks/opaqueleaves",
+    "particle": "legendary_weapons:blocks/opaqueleaves"
+  }
+}

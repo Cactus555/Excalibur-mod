@@ -1,0 +1,9 @@
+{
+  "group": "legendary_weapons",
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "legendary_weapons:platiniumsword"
+  },
+  "result": "legendary_weapons:platiniumdagger"
+}

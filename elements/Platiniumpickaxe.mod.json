@@ -1,0 +1,30 @@
+{
+  "_fv": 10,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "platiniumpickaxe",
+    "customModelName": "Normal",
+    "name": "Platiniumpickaxe",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:Platinium"
+    },
+    "toolType": "Pickaxe",
+    "harvestLevel": 2,
+    "efficiency": 4.0,
+    "attackSpeed": 1.3,
+    "enchantability": 10,
+    "damageVsEntity": 3.0,
+    "usageCount": 6234,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:Platiniumingot"
+      }
+    ],
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

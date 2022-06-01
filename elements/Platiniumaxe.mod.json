@@ -1,0 +1,30 @@
+{
+  "_fv": 10,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "platiniumaxe",
+    "customModelName": "Normal",
+    "name": "Platiniumaxe",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:Platinium"
+    },
+    "toolType": "Axe",
+    "harvestLevel": 2,
+    "efficiency": 10.0,
+    "attackSpeed": 0.7000000000000001,
+    "enchantability": 2,
+    "damageVsEntity": 9.0,
+    "usageCount": 6234,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:Platiniumingot"
+      }
+    ],
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

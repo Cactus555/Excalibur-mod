@@ -1,0 +1,69 @@
+{
+  "_fv": 10,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": true,
+    "textureHelmet": "platiniumhelmett",
+    "enableBody": true,
+    "textureBody": "platiniumchestplatet",
+    "enableLeggings": true,
+    "textureLeggings": "platiniumleggingst",
+    "enableBoots": true,
+    "textureBoots": "platiniumbootst",
+    "onHelmetTick": {
+      "name": "PlatiniumarmorHelmetTickEvent"
+    },
+    "onBodyTick": {
+      "name": "PlatiniumarmorBodyTickEvent"
+    },
+    "onLeggingsTick": {
+      "name": "PlatiniumarmorLeggingsTickEvent"
+    },
+    "onBootsTick": {
+      "name": "PlatiniumarmorBootsTickEvent"
+    },
+    "creativeTab": {
+      "value": "CUSTOM:Platinium"
+    },
+    "armorTextureFile": "platiniumarmor",
+    "helmetName": "Platiniumarmor Helmet",
+    "bodyName": "Platiniumarmor Body",
+    "leggingsName": "Platiniumarmor Leggings",
+    "bootsName": "Platiniumarmor Boots",
+    "helmetSpecialInfo": [],
+    "bodySpecialInfo": [],
+    "leggingsSpecialInfo": [],
+    "bootsSpecialInfo": [],
+    "helmetModelName": "Default",
+    "helmetModelPart": "Helmet",
+    "helmetModelTexture": "From armor",
+    "bodyModelName": "Default",
+    "bodyModelPart": "Body",
+    "armsModelPartL": "Arms L",
+    "armsModelPartR": "Arms R",
+    "bodyModelTexture": "From armor",
+    "leggingsModelName": "Default",
+    "leggingsModelPartL": "Leggings L",
+    "leggingsModelPartR": "Leggings R",
+    "leggingsModelTexture": "From armor",
+    "bootsModelName": "Default",
+    "bootsModelPartL": "Boots L",
+    "bootsModelPartR": "Boots R",
+    "bootsModelTexture": "From armor",
+    "maxDamage": 35,
+    "damageValueHelmet": 5,
+    "damageValueBody": 10,
+    "damageValueLeggings": 15,
+    "damageValueBoots": 2,
+    "enchantability": 10,
+    "toughness": 2.3000000000000003,
+    "equipSound": {
+      "value": "item.armor.equip_generic"
+    },
+    "repairItems": [
+      {
+        "value": "CUSTOM:Platiniumingot"
+      }
+    ]
+  }
+}

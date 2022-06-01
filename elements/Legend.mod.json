@@ -1,0 +1,11 @@
+{
+  "_fv": 10,
+  "_type": "tab",
+  "definition": {
+    "name": "Legend",
+    "icon": {
+      "value": "CUSTOM:Angelicsword"
+    },
+    "showSearch": false
+  }
+}

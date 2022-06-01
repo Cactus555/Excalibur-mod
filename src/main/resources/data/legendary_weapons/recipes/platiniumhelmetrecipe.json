@@ -1,0 +1,29 @@
+{
+  "group": "legendary_weapons",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "legendary_weapons:platiniumingot"
+    },
+    "1": {
+      "item": "legendary_weapons:platiniumingot"
+    },
+    "2": {
+      "item": "legendary_weapons:platiniumingot"
+    },
+    "3": {
+      "item": "legendary_weapons:platiniumingot"
+    },
+    "5": {
+      "item": "legendary_weapons:platiniumingot"
+    }
+  },
+  "result": {
+    "item": "legendary_weapons:platiniumarmor_helmet",
+    "count": 1
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "legendary_weapons:blocks/platiniumore",
+    "up": "legendary_weapons:blocks/platiniumore",
+    "north": "legendary_weapons:blocks/platiniumore",
+    "east": "legendary_weapons:blocks/platiniumore",
+    "south": "legendary_weapons:blocks/platiniumore",
+    "west": "legendary_weapons:blocks/platiniumore",
+    "particle": "legendary_weapons:blocks/platiniumore"
+  }
+}

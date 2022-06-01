@@ -1,0 +1,42 @@
+{
+  "_fv": 10,
+  "_type": "gun",
+  "definition": {
+    "renderType": 0,
+    "texture": "fire_book",
+    "customModelName": "Normal",
+    "name": "Firebook",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:Legend"
+    },
+    "stackSize": 1,
+    "ammoItem": {
+      "value": ""
+    },
+    "shootConstantly": false,
+    "usageCount": 6000,
+    "actionSound": {
+      "value": "block.end_portal_frame.fill"
+    },
+    "hasGlow": false,
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "bulletPower": 1.0,
+    "bulletDamage": 5.0,
+    "bulletKnockback": 0,
+    "bulletParticles": true,
+    "bulletIgnitesFire": false,
+    "bulletItemTexture": {
+      "value": "Items.SNOWBALL"
+    },
+    "bulletModel": "Default",
+    "customBulletModelTexture": "",
+    "onBulletHitsBlock": {
+      "name": "MagicbookBulletHitsBlock"
+    },
+    "onBulletHitsEntity": {
+      "name": "MagicbookBulletHitsLivingEntity"
+    }
+  }
+}
